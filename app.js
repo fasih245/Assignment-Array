@@ -40,7 +40,7 @@ document.write("<p>Top Movies 2024</p>")
 // `
 // <ol>
 // ${generateListItems(topMovies2024)}
-// </ol>`;
+// </ol>`;  
 
 
 console.log(topMovies2024);
@@ -54,7 +54,7 @@ document.write('<b> Length of the array: </b>', topMovies2024.length);
 var favCars=["Audi","Aston Martin","Paggani","Rolls Royce"];
 document.write('<br><br><br><b>Favorite Cars</b>')
 document.write('<br><br>',favCars,);
-document.write('<br>','First Index of the array: ',favCars.indexOf("Audi"));
+document.write('<br> First Index of the array: ',favCars.indexOf("Audi"));
 document.write('<br>','Car at First Index of the array: ',favCars[0]);
 document.write('<br>','Lasst Index of the array: ',favCars.indexOf("Rolls Royce"));
 document.write('<br>','Car at Lasst Index of the array: ',favCars[3]);
